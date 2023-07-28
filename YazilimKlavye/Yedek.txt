@@ -1,0 +1,117 @@
+  switch (basilanTus) {
+    case '1':  // İf
+      TRKeyboard.print("i");
+      TRKeyboard.press(KEY_ESC);
+      delay(500);
+      TRKeyboard.print("f (true)");
+      TRKeyboard.press(KEY_RIGHT_ALT);
+      TRKeyboard.press('7');
+      TRKeyboard.releaseAll();
+      TRKeyboard.press(KEY_RETURN);
+      TRKeyboard.print("/* Yorum*/");
+      delay(1000);
+      TRKeyboard.press(KEY_RETURN);
+      TRKeyboard.press(KEY_RIGHT_ALT);
+      TRKeyboard.press('0');
+      TRKeyboard.releaseAll();
+      TRKeyboard.press(KEY_RETURN);
+      TRKeyboard.releaseAll();
+      break;
+    case '2':  // Else
+      TRKeyboard.print("e");
+      TRKeyboard.press(KEY_ESC);
+      delay(500);
+      TRKeyboard.print("lse");
+      TRKeyboard.press(KEY_RIGHT_ALT);
+      TRKeyboard.press('7');
+      TRKeyboard.releaseAll();
+      TRKeyboard.press(KEY_RETURN);
+      TRKeyboard.print("/* Yorum*/");
+      delay(1000);
+      TRKeyboard.press(KEY_RETURN);
+      TRKeyboard.press(KEY_RIGHT_ALT);
+      TRKeyboard.press('0');
+      TRKeyboard.releaseAll();
+      TRKeyboard.press(KEY_RETURN);
+      TRKeyboard.releaseAll();
+      break;
+    case '3':  // İf Else
+      TRKeyboard.print("i");
+      TRKeyboard.press(KEY_ESC);
+      delay(500);
+      TRKeyboard.print("f (true)");
+      TRKeyboard.press(KEY_RIGHT_ALT);
+      TRKeyboard.press('7');
+      TRKeyboard.releaseAll();
+      TRKeyboard.press(KEY_RETURN);
+      TRKeyboard.print("/* Yorum*/");
+      delay(1000);
+      TRKeyboard.press(KEY_RETURN);
+      TRKeyboard.press(KEY_RIGHT_ALT);
+      TRKeyboard.press('0');
+      TRKeyboard.releaseAll();
+      TRKeyboard.print("e");
+      TRKeyboard.press(KEY_ESC);
+      delay(500);
+      TRKeyboard.print("lse");
+      TRKeyboard.press(KEY_RIGHT_ALT);
+      TRKeyboard.press('7');
+      TRKeyboard.releaseAll();
+      TRKeyboard.press(KEY_RETURN);
+      TRKeyboard.print("/* Yorum*/");
+      delay(1000);
+      TRKeyboard.press(KEY_RETURN);
+      TRKeyboard.press(KEY_RIGHT_ALT);
+      TRKeyboard.press('0');
+      TRKeyboard.releaseAll();
+      TRKeyboard.press(KEY_RETURN);
+      TRKeyboard.releaseAll();
+      break;
+    case '4':  // for
+      TRKeyboard.print("f");
+      TRKeyboard.press(KEY_ESC);
+      delay(500);
+      TRKeyboard.print("or(int i = 0;i");
+      TRKeyboard.print(" = d");
+      TRKeyboard.press(KEY_ESC);
+      delay(500);
+      TRKeyboard.press(KEY_ESC);
+      delay(500);
+      TRKeyboard.print("egisken; i++)");
+      TRKeyboard.press(KEY_RIGHT_ALT);
+      TRKeyboard.press('7');
+      TRKeyboard.releaseAll();
+      TRKeyboard.press(KEY_RETURN);
+      TRKeyboard.print("/* Yorum*/");
+      delay(1000);
+      TRKeyboard.press(KEY_RETURN);
+      TRKeyboard.press(KEY_RIGHT_ALT);
+      TRKeyboard.press('0');
+      TRKeyboard.releaseAll();
+      TRKeyboard.press(KEY_RETURN);
+      TRKeyboard.releaseAll();
+      break;
+
+    case '5':
+      TRKeyboard.print("for");
+      TRKeyboard.press(KEY_TAB);
+      TRKeyboard.releaseAll();
+      TRKeyboard.press(KEY_TAB);
+      TRKeyboard.releaseAll();
+      break;
+
+    case '6':
+      TRKeyboard.print("if");
+      TRKeyboard.press(KEY_TAB);
+      TRKeyboard.releaseAll();
+      TRKeyboard.press(KEY_TAB);
+      TRKeyboard.releaseAll();
+      break;
+
+    case '7':
+      TRKeyboard.print("switch");
+      TRKeyboard.press(KEY_TAB);
+      TRKeyboard.releaseAll();
+      TRKeyboard.press(KEY_TAB);
+      TRKeyboard.releaseAll();
+      break;
