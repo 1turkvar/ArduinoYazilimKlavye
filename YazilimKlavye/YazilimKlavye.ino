@@ -94,20 +94,47 @@ void loop() {
       TRKeyboard.press(KEY_TAB);
       TRKeyboard.releaseAll();
       break;
-
-    case '5':
+    case '5':  // switch
       TRKeyboard.print("switch");
       TRKeyboard.press(KEY_TAB);
       TRKeyboard.releaseAll();
       TRKeyboard.press(KEY_TAB);
       TRKeyboard.releaseAll();
       break;
+    case '6':  // değişken tanımlama
+      TRKeyboard.print("prop");
+      TRKeyboard.press(KEY_TAB);
+      TRKeyboard.releaseAll();
+      break;
+    case '7':  // using
+      TRKeyboard.print("using ");
+      TRKeyboard.releaseAll();
+      break;
+    case '8':  // using
+      TRKeyboard.press(KEY_LEFT_ALT);
+      TRKeyboard.press(KEY_RIGHT_ARROW);
+      TRKeyboard.releaseAll();
+      break;
+
 
 
     case 'A':  // VS Kod Düzenleme
       TRKeyboard.press(KEY_LEFT_CTRL);
       TRKeyboard.press('k');
       TRKeyboard.press('d');
+      delay(500);
+      TRKeyboard.releaseAll();
+      break;
+    case 'B':  // Tanımları daralt
+      TRKeyboard.press(KEY_LEFT_CTRL);
+      TRKeyboard.press('o');
+      delay(500);
+      TRKeyboard.releaseAll();
+      break;
+    case 'C':  // Metotları kapatır
+      TRKeyboard.press(KEY_LEFT_CTRL);
+      TRKeyboard.press(KEY_LEFT_SHIFT);
+      TRKeyboard.press('b');
       delay(500);
       TRKeyboard.releaseAll();
       break;
