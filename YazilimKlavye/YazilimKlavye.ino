@@ -101,20 +101,24 @@ void loop() {
       TRKeyboard.press(KEY_TAB);
       TRKeyboard.releaseAll();
       break;
-    case '6':  // değişken tanımlama
-      TRKeyboard.print("prop");
+    case '6':  // switch
+      TRKeyboard.print("foreach");
+      TRKeyboard.press(KEY_TAB);
+      TRKeyboard.releaseAll();
       TRKeyboard.press(KEY_TAB);
       TRKeyboard.releaseAll();
       break;
-    case '7':  // using
-      TRKeyboard.print("using ");
+    case '7':  // değişken tanımlama
+      TRKeyboard.print("prop");
+      delay(500);
+      TRKeyboard.press(KEY_TAB);
       TRKeyboard.releaseAll();
       break;
     case '8':  // using
-      TRKeyboard.press(KEY_LEFT_ALT);
-      TRKeyboard.press(KEY_RIGHT_ARROW);
+      TRKeyboard.print("using ");
       TRKeyboard.releaseAll();
       break;
+
 
 
 
